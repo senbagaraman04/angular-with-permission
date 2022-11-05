@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
     
   }
   ngOnInit(): void {
-   this.ngxPermissionService.loadPermissions(['ADMIN']);
+   //this.ngxPermissionService.loadPermissions(['ADMIN']);
   }
   title = 'angularpermission';
 
